@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-10-23T18:06:22.156942Z",
+  "models": [
+    {
+      "provider": "OpenAI",
+      "model_id": "gpt-4o-mini",
+      "input_price": 0.15,
+      "output_price": 0.6,
+      "tokens_per_sec": 110,
+      "latency_ms": 320,
+      "tasks": {
+        "tech_summary_cost_per_1k": 1.5,
+        "code_review_cost_per_1k": 1.35
+      }
+    },
+    {
+      "provider": "Anthropic",
+      "model_id": "claude-3-5-haiku",
+      "input_price": 0.8,
+      "output_price": 4.0,
+      "tokens_per_sec": 140,
+      "latency_ms": 290,
+      "tasks": {
+        "tech_summary_cost_per_1k": 8.4,
+        "code_review_cost_per_1k": 8.4
+      }
+    }
+  ]
+}
