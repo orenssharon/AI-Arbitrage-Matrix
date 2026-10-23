@@ -2,8 +2,8 @@ name: Update AI Arbitrage Matrix
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # רץ כל 4 שעות
-  workflow_dispatch: # אפשרות להפעלה ידנית מתוך הגיטהאב
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
 
 jobs:
   update-matrix:
@@ -25,6 +25,8 @@ jobs:
           pip install requests
 
       - name: Run Scraper & Calculator
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python update_matrix.py
 
       - name: Commit and push changes
@@ -32,5 +34,5 @@ jobs:
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
           git add ai_arbitrage_matrix.json
-          git commit -m "Auto-update AI arbitrage matrix [skip ci]" || exit 0
+          git commit -m "Auto-update AI arbitrage matrix with benchmarks [skip ci]" || exit 0
           git push
