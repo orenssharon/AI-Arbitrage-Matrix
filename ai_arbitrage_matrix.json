@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-27T17:07:32.988902Z",
-  "total_models": 463,
+  "last_updated": "2026-10-27T23:24:04.362041Z",
+  "total_models": 464,
   "models": [
     {
       "provider": "Openai",
@@ -168,6 +168,20 @@
         "tech_summary_cost_per_1k": 0.975,
         "code_review_cost_per_1k": 0.825,
         "structured_extraction_cost_per_1k": 0.255
+      }
+    },
+    {
+      "provider": "Prism-ml",
+      "model_id": "prism-ml/ternary-bonsai-2-9b",
+      "input_price_per_mtok": 0.08,
+      "output_price_per_mtok": 0.13,
+      "context_length": 262144,
+      "tokens_per_sec": 0,
+      "latency_ms": 0,
+      "tasks": {
+        "tech_summary_cost_per_1k": 0.705,
+        "code_review_cost_per_1k": 0.435,
+        "structured_extraction_cost_per_1k": 0.159
       }
     },
     {
@@ -929,15 +943,15 @@
     {
       "provider": "~deepseek",
       "model_id": "~deepseek/deepseek-flash-latest",
-      "input_price_per_mtok": 0.022,
-      "output_price_per_mtok": 1.21,
+      "input_price_per_mtok": 0.0182,
+      "output_price_per_mtok": 1.8,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.781,
-        "code_review_cost_per_1k": 1.881,
-        "structured_extraction_cost_per_1k": 0.396
+        "tech_summary_cost_per_1k": 1.0456,
+        "code_review_cost_per_1k": 2.7546,
+        "structured_extraction_cost_per_1k": 0.5673
       }
     },
     {
@@ -1321,15 +1335,15 @@
     {
       "provider": "~z-ai",
       "model_id": "~z-ai/glm-flash-latest",
-      "input_price_per_mtok": 0.0417,
-      "output_price_per_mtok": 0.074,
+      "input_price_per_mtok": 0.0399,
+      "output_price_per_mtok": 0.16,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.3706,
-        "code_review_cost_per_1k": 0.2361,
-        "structured_extraction_cost_per_1k": 0.0848
+        "tech_summary_cost_per_1k": 0.3992,
+        "code_review_cost_per_1k": 0.3597,
+        "structured_extraction_cost_per_1k": 0.1078
       }
     },
     {
@@ -1979,15 +1993,15 @@
     {
       "provider": "Moonshotai",
       "model_id": "moonshotai/kimi-k3",
-      "input_price_per_mtok": 0.15,
+      "input_price_per_mtok": 0.159,
       "output_price_per_mtok": 20.0,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 11.2,
-        "code_review_cost_per_1k": 30.45,
-        "structured_extraction_cost_per_1k": 6.225
+        "tech_summary_cost_per_1k": 11.272,
+        "code_review_cost_per_1k": 30.477,
+        "structured_extraction_cost_per_1k": 6.2385
       }
     },
     {
@@ -2833,15 +2847,15 @@
     {
       "provider": "~moonshotai",
       "model_id": "~moonshotai/kimi-latest",
-      "input_price_per_mtok": 0.15,
+      "input_price_per_mtok": 0.159,
       "output_price_per_mtok": 20.0,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 11.2,
-        "code_review_cost_per_1k": 30.45,
-        "structured_extraction_cost_per_1k": 6.225
+        "tech_summary_cost_per_1k": 11.272,
+        "code_review_cost_per_1k": 30.477,
+        "structured_extraction_cost_per_1k": 6.2385
       }
     },
     {
@@ -2987,15 +3001,15 @@
     {
       "provider": "Deepseek",
       "model_id": "deepseek/deepseek-v4-pro",
-      "input_price_per_mtok": 0.8804,
-      "output_price_per_mtok": 1.7609,
+      "input_price_per_mtok": 0.8754,
+      "output_price_per_mtok": 1.7508,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 7.9236,
-        "code_review_cost_per_1k": 5.2825,
-        "structured_extraction_cost_per_1k": 1.8489
+        "tech_summary_cost_per_1k": 7.8786,
+        "code_review_cost_per_1k": 5.2524,
+        "structured_extraction_cost_per_1k": 1.8383
       }
     },
     {
@@ -3155,15 +3169,15 @@
     {
       "provider": "Google",
       "model_id": "google/gemma-4-26b-a4b-it",
-      "input_price_per_mtok": 0.09,
-      "output_price_per_mtok": 0.3,
+      "input_price_per_mtok": 0.0765,
+      "output_price_per_mtok": 0.255,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.87,
-        "code_review_cost_per_1k": 0.72,
-        "structured_extraction_cost_per_1k": 0.225
+        "tech_summary_cost_per_1k": 0.7395,
+        "code_review_cost_per_1k": 0.612,
+        "structured_extraction_cost_per_1k": 0.1912
       }
     },
     {
