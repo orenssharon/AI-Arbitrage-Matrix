@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T17:27:14.125816Z",
+  "last_updated": "2026-11-01T23:15:41.848784Z",
   "total_models": 452,
   "models": [
     {
@@ -1461,15 +1461,15 @@
     {
       "provider": "Z-ai",
       "model_id": "z-ai/glm-5.3",
-      "input_price_per_mtok": 0.08,
-      "output_price_per_mtok": 3.6,
+      "input_price_per_mtok": 0.0699,
+      "output_price_per_mtok": 1.4,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 2.44,
-        "code_review_cost_per_1k": 5.64,
-        "structured_extraction_cost_per_1k": 1.2
+        "tech_summary_cost_per_1k": 1.2592,
+        "code_review_cost_per_1k": 2.3097,
+        "structured_extraction_cost_per_1k": 0.5249
       }
     },
     {
@@ -4751,15 +4751,15 @@
     {
       "provider": "Openai",
       "model_id": "openai/gpt-oss-120b",
-      "input_price_per_mtok": 0.014,
-      "output_price_per_mtok": 0.051,
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
       "context_length": 131072,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.1375,
-        "code_review_cost_per_1k": 0.1185,
-        "structured_extraction_cost_per_1k": 0.0363
+        "tech_summary_cost_per_1k": 1.5,
+        "code_review_cost_per_1k": 1.35,
+        "structured_extraction_cost_per_1k": 0.405
       }
     },
     {
