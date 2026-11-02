@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T03:41:10.294108Z",
+  "last_updated": "2026-11-02T11:53:34.565371Z",
   "total_models": 452,
   "models": [
     {
@@ -117,15 +117,15 @@
     {
       "provider": "Deepseek",
       "model_id": "deepseek/deepseek-v4.1-flash-1017",
-      "input_price_per_mtok": 0.3,
-      "output_price_per_mtok": 1.2,
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 3.0,
-        "code_review_cost_per_1k": 2.7,
-        "structured_extraction_cost_per_1k": 0.81
+        "tech_summary_cost_per_1k": 1.5,
+        "code_review_cost_per_1k": 1.35,
+        "structured_extraction_cost_per_1k": 0.405
       }
     },
     {
@@ -1491,7 +1491,7 @@
       "model_id": "qwen/qwen3.8-27b",
       "input_price_per_mtok": 0.15,
       "output_price_per_mtok": 1.875,
-      "context_length": 1000000,
+      "context_length": 1024000,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
@@ -3057,15 +3057,15 @@
     {
       "provider": "Google",
       "model_id": "google/gemma-4-26b-a4b-it",
-      "input_price_per_mtok": 0.019,
-      "output_price_per_mtok": 0.057,
+      "input_price_per_mtok": 0.06,
+      "output_price_per_mtok": 0.18,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.1805,
-        "code_review_cost_per_1k": 0.1425,
-        "structured_extraction_cost_per_1k": 0.0456
+        "tech_summary_cost_per_1k": 0.57,
+        "code_review_cost_per_1k": 0.45,
+        "structured_extraction_cost_per_1k": 0.144
       }
     },
     {
@@ -4779,15 +4779,15 @@
     {
       "provider": "Openai",
       "model_id": "openai/gpt-oss-20b",
-      "input_price_per_mtok": 0.018,
-      "output_price_per_mtok": 0.09,
+      "input_price_per_mtok": 0.03,
+      "output_price_per_mtok": 0.13,
       "context_length": 131072,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.189,
-        "code_review_cost_per_1k": 0.189,
-        "structured_extraction_cost_per_1k": 0.054
+        "tech_summary_cost_per_1k": 0.305,
+        "code_review_cost_per_1k": 0.285,
+        "structured_extraction_cost_per_1k": 0.084
       }
     },
     {
@@ -4849,15 +4849,15 @@
     {
       "provider": "Qwen",
       "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "input_price_per_mtok": 0.15,
-      "output_price_per_mtok": 0.6,
+      "input_price_per_mtok": 0.07,
+      "output_price_per_mtok": 0.28,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 1.5,
-        "code_review_cost_per_1k": 1.35,
-        "structured_extraction_cost_per_1k": 0.405
+        "tech_summary_cost_per_1k": 0.7,
+        "code_review_cost_per_1k": 0.63,
+        "structured_extraction_cost_per_1k": 0.189
       }
     },
     {
