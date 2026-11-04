@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T21:23:46.645807Z",
+  "last_updated": "2026-11-04T04:09:16.836662Z",
   "total_models": 454,
   "models": [
     {
@@ -131,15 +131,15 @@
     {
       "provider": "Minimax",
       "model_id": "minimax/minimax-m3.1-flash",
-      "input_price_per_mtok": 0.075,
-      "output_price_per_mtok": 0.3,
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.75,
-        "code_review_cost_per_1k": 0.675,
-        "structured_extraction_cost_per_1k": 0.2025
+        "tech_summary_cost_per_1k": 1.5,
+        "code_review_cost_per_1k": 1.35,
+        "structured_extraction_cost_per_1k": 0.405
       }
     },
     {
@@ -971,15 +971,15 @@
     {
       "provider": "~deepseek",
       "model_id": "~deepseek/deepseek-flash-latest",
-      "input_price_per_mtok": 0.035,
-      "output_price_per_mtok": 0.315,
+      "input_price_per_mtok": 0.0333,
+      "output_price_per_mtok": 0.475,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.4375,
-        "code_review_cost_per_1k": 0.5775,
-        "structured_extraction_cost_per_1k": 0.147
+        "tech_summary_cost_per_1k": 0.5039,
+        "code_review_cost_per_1k": 0.8124,
+        "structured_extraction_cost_per_1k": 0.1924
       }
     },
     {
@@ -1336,42 +1336,42 @@
       "provider": "Ibm-granite",
       "model_id": "ibm-granite/granite-4.2-8b",
       "input_price_per_mtok": 0.06,
-      "output_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.25,
       "context_length": 131072,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.555,
-        "code_review_cost_per_1k": 0.405,
-        "structured_extraction_cost_per_1k": 0.135
+        "tech_summary_cost_per_1k": 0.605,
+        "code_review_cost_per_1k": 0.555,
+        "structured_extraction_cost_per_1k": 0.165
       }
     },
     {
       "provider": "Tencent",
       "model_id": "tencent/hy4-preview",
-      "input_price_per_mtok": 0.7506,
-      "output_price_per_mtok": 2.2509,
+      "input_price_per_mtok": 0.834,
+      "output_price_per_mtok": 2.501,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 7.1303,
-        "code_review_cost_per_1k": 5.6281,
-        "structured_extraction_cost_per_1k": 1.8012
+        "tech_summary_cost_per_1k": 7.9225,
+        "code_review_cost_per_1k": 6.2535,
+        "structured_extraction_cost_per_1k": 2.0013
       }
     },
     {
       "provider": "~z-ai",
       "model_id": "~z-ai/glm-flash-latest",
-      "input_price_per_mtok": 0.0313,
+      "input_price_per_mtok": 0.0298,
       "output_price_per_mtok": 0.0846,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.2927,
-        "code_review_cost_per_1k": 0.2208,
-        "structured_extraction_cost_per_1k": 0.0723
+        "tech_summary_cost_per_1k": 0.2807,
+        "code_review_cost_per_1k": 0.2163,
+        "structured_extraction_cost_per_1k": 0.0701
       }
     },
     {
@@ -1391,15 +1391,15 @@
     {
       "provider": "Z-ai",
       "model_id": "z-ai/glm-5.3-flash",
-      "input_price_per_mtok": 0.0313,
+      "input_price_per_mtok": 0.0298,
       "output_price_per_mtok": 0.0846,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.2927,
-        "code_review_cost_per_1k": 0.2208,
-        "structured_extraction_cost_per_1k": 0.0723
+        "tech_summary_cost_per_1k": 0.2807,
+        "code_review_cost_per_1k": 0.2163,
+        "structured_extraction_cost_per_1k": 0.0701
       }
     },
     {
@@ -1630,14 +1630,14 @@
       "provider": "Deepseek",
       "model_id": "deepseek/deepseek-v4-pro-0813",
       "input_price_per_mtok": 0.115,
-      "output_price_per_mtok": 4.0,
+      "output_price_per_mtok": 5.5,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 2.92,
-        "code_review_cost_per_1k": 6.345,
-        "structured_extraction_cost_per_1k": 1.3725
+        "tech_summary_cost_per_1k": 3.67,
+        "code_review_cost_per_1k": 8.595,
+        "structured_extraction_cost_per_1k": 1.8225
       }
     },
     {
@@ -1993,15 +1993,15 @@
     {
       "provider": "Moonshotai",
       "model_id": "moonshotai/kimi-k3",
-      "input_price_per_mtok": 0.192,
+      "input_price_per_mtok": 0.2,
       "output_price_per_mtok": 16.0,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 9.536,
-        "code_review_cost_per_1k": 24.576,
-        "structured_extraction_cost_per_1k": 5.088
+        "tech_summary_cost_per_1k": 9.6,
+        "code_review_cost_per_1k": 24.6,
+        "structured_extraction_cost_per_1k": 5.1
       }
     },
     {
@@ -2259,15 +2259,15 @@
     {
       "provider": "Tencent",
       "model_id": "tencent/hy3",
-      "input_price_per_mtok": 0.0825,
-      "output_price_per_mtok": 0.33,
+      "input_price_per_mtok": 0.132,
+      "output_price_per_mtok": 0.528,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.825,
-        "code_review_cost_per_1k": 0.7425,
-        "structured_extraction_cost_per_1k": 0.2228
+        "tech_summary_cost_per_1k": 1.32,
+        "code_review_cost_per_1k": 1.188,
+        "structured_extraction_cost_per_1k": 0.3564
       }
     },
     {
@@ -2805,15 +2805,15 @@
     {
       "provider": "~moonshotai",
       "model_id": "~moonshotai/kimi-latest",
-      "input_price_per_mtok": 0.151,
-      "output_price_per_mtok": 10.5354,
+      "input_price_per_mtok": 0.19,
+      "output_price_per_mtok": 8.94,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 6.4757,
-        "code_review_cost_per_1k": 16.2561,
-        "structured_extraction_cost_per_1k": 3.3871
+        "tech_summary_cost_per_1k": 5.99,
+        "code_review_cost_per_1k": 13.98,
+        "structured_extraction_cost_per_1k": 2.967
       }
     },
     {
@@ -3113,15 +3113,15 @@
     {
       "provider": "Google",
       "model_id": "google/gemma-4-26b-a4b-it",
-      "input_price_per_mtok": 0.085,
-      "output_price_per_mtok": 0.255,
+      "input_price_per_mtok": 0.081,
+      "output_price_per_mtok": 0.244,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.8075,
-        "code_review_cost_per_1k": 0.6375,
-        "structured_extraction_cost_per_1k": 0.204
+        "tech_summary_cost_per_1k": 0.77,
+        "code_review_cost_per_1k": 0.609,
+        "structured_extraction_cost_per_1k": 0.1947
       }
     },
     {
@@ -4807,15 +4807,15 @@
     {
       "provider": "Openai",
       "model_id": "openai/gpt-oss-120b",
-      "input_price_per_mtok": 0.021,
-      "output_price_per_mtok": 0.076,
+      "input_price_per_mtok": 0.15,
+      "output_price_per_mtok": 0.6,
       "context_length": 131072,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.206,
-        "code_review_cost_per_1k": 0.177,
-        "structured_extraction_cost_per_1k": 0.0543
+        "tech_summary_cost_per_1k": 1.5,
+        "code_review_cost_per_1k": 1.35,
+        "structured_extraction_cost_per_1k": 0.405
       }
     },
     {
@@ -5017,15 +5017,15 @@
     {
       "provider": "Qwen",
       "model_id": "qwen/qwen3-235b-a22b-2507",
-      "input_price_per_mtok": 0.14,
-      "output_price_per_mtok": 0.8,
+      "input_price_per_mtok": 0.09,
+      "output_price_per_mtok": 0.55,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 1.52,
-        "code_review_cost_per_1k": 1.62,
-        "structured_extraction_cost_per_1k": 0.45
+        "tech_summary_cost_per_1k": 0.995,
+        "code_review_cost_per_1k": 1.095,
+        "structured_extraction_cost_per_1k": 0.3
       }
     },
     {
@@ -5731,15 +5731,15 @@
     {
       "provider": "Meta-llama",
       "model_id": "meta-llama/llama-3.3-70b-instruct",
-      "input_price_per_mtok": 0.2,
-      "output_price_per_mtok": 0.52,
+      "input_price_per_mtok": 0.1,
+      "output_price_per_mtok": 0.32,
       "context_length": 131072,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 1.86,
-        "code_review_cost_per_1k": 1.38,
-        "structured_extraction_cost_per_1k": 0.456
+        "tech_summary_cost_per_1k": 0.96,
+        "code_review_cost_per_1k": 0.78,
+        "structured_extraction_cost_per_1k": 0.246
       }
     },
     {
