@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-14T17:30:27.103935Z",
+  "last_updated": "2026-11-14T23:32:57.445929Z",
   "total_models": 471,
   "models": [
     {
@@ -2693,15 +2693,15 @@
     {
       "provider": "Z-ai",
       "model_id": "z-ai/glm-5.2:batch",
-      "input_price_per_mtok": 0.322,
-      "output_price_per_mtok": 0.989,
+      "input_price_per_mtok": 0.298,
+      "output_price_per_mtok": 0.916,
       "context_length": 1048576,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 3.0705,
-        "code_review_cost_per_1k": 2.4495,
-        "structured_extraction_cost_per_1k": 0.7797
+        "tech_summary_cost_per_1k": 2.842,
+        "code_review_cost_per_1k": 2.268,
+        "structured_extraction_cost_per_1k": 0.7218
       }
     },
     {
@@ -3715,15 +3715,15 @@
     {
       "provider": "Qwen",
       "model_id": "qwen/qwen3.5-9b",
-      "input_price_per_mtok": 0.101,
-      "output_price_per_mtok": 0.149,
+      "input_price_per_mtok": 0.049,
+      "output_price_per_mtok": 0.073,
       "context_length": 262144,
       "tokens_per_sec": 0,
       "latency_ms": 0,
       "tasks": {
-        "tech_summary_cost_per_1k": 0.8825,
-        "code_review_cost_per_1k": 0.5265,
-        "structured_extraction_cost_per_1k": 0.1962
+        "tech_summary_cost_per_1k": 0.4285,
+        "code_review_cost_per_1k": 0.2565,
+        "structured_extraction_cost_per_1k": 0.0954
       }
     },
     {
